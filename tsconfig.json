@@ -18,6 +18,7 @@
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
+    "strictPropertyInitialization": false,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
