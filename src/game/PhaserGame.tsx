@@ -49,6 +49,7 @@ export const PhaserGame = (props: IProps) => {
                 instance.game.destroy(true);
                 setInstance({ game: null, scene: null });
             }
+            
             EventBus.removeListener('current-scene-ready');
             
         });

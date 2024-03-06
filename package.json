@@ -1,20 +1,37 @@
 {
-  "name": "template-solid",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "phaser": "^3.80.1",
-    "solid-js": "^1.8.15"
-  },
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.1.4",
-    "vite-plugin-solid": "^2.10.1"
-  }
+    "name": "template-solidjs",
+    "version": "0.0.1",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phaserjs/template-solid.git"
+    },
+    "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+    "license": "MIT",
+    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+    "bugs": {
+        "url": "https://github.com/phaserjs/template-solid/issues"
+    },
+    "homepage": "https://github.com/phaserjs/template-solid#readme",
+    "keywords": [
+        "phaser",
+        "phaser3",
+        "solidjs",
+        "vite",
+        "typescript"
+    ],
+    "scripts": {
+        "dev": "vite --config vite/config.dev.mjs",
+        "build": "vite build --config vite/config.prod.mjs"
+    },
+    "dependencies": {
+        "phaser": "^3.80.1",
+        "solid-js": "^1.8.15"
+    },
+    "devDependencies": {
+        "terser": "^5.28.1",
+        "typescript": "^5.2.2",
+        "vite": "^5.1.4",
+        "vite-plugin-solid": "^2.10.1"
+    }
 }

@@ -5,6 +5,7 @@ import Phaser from 'phaser';
 import { MainMenu } from './game/scenes/MainMenu';
 
 const App = () => {
+    
     // The sprite can only be moved in the MainMenu Scene
     const [canMoveSprite, setCanMoveSprite] = createSignal(true);
 
