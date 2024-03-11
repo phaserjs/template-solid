@@ -1,7 +1,6 @@
 {
     "name": "template-solidjs",
-    "version": "0.0.1",
-    "type": "module",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/phaserjs/template-solid.git"

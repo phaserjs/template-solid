@@ -3,10 +3,10 @@ import solid from 'vite-plugin-solid';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    solid(),
-  ],
-  server: {
-      port: 8080
-  }
+    plugins: [
+        solid(),
+    ],
+    server: {
+        port: 8080
+    }
 })
