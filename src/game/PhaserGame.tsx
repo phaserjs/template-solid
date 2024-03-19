@@ -9,7 +9,7 @@ export interface IRefPhaserGame {
 }
 
 interface IProps {
-    currentActiveScene: (scene_instance: Phaser.Scene) => void;
+    currentActiveScene?: (scene_instance: Phaser.Scene) => void;
     ref?: (instance: IRefPhaserGame) => void; // Optional ref callback prop
 }
 
@@ -35,7 +35,7 @@ export const PhaserGame = (props: IProps) => {
                 setInstance("scene", scene_instance);
 
             }
-            
+
             if (props.ref)
             {
                 props.ref({ game: gameInstance, scene: scene_instance });
