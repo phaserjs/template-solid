@@ -34,10 +34,11 @@ export const PhaserGame = (props: IProps) => {
                 props.currentActiveScene(scene_instance);
                 setInstance("scene", scene_instance);
 
-                if (props.ref)
-                {
-                    props.ref({ game: gameInstance, scene: scene_instance });
-                }
+            }
+            
+            if (props.ref)
+            {
+                props.ref({ game: gameInstance, scene: scene_instance });
             }
 
         });
