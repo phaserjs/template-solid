@@ -6,7 +6,7 @@ This is a Phaser 3 project template that uses the Solidjs framework and Vite for
 
 This template has been updated for:
 
-- [Phaser 3.87.0](https://github.com/phaserjs/phaser)
+- [Phaser 3.88.0](https://github.com/phaserjs/phaser)
 - [Solid 1.8.17](https://github.com/solidjs/solid)
 - [Vite 5.2.11](https://github.com/vitejs/vite)
 - [TypeScript 5.4.5](https://github.com/microsoft/TypeScript)
