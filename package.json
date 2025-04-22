@@ -1,7 +1,7 @@
 {
     "name": "template-solidjs",
     "description": "A Phaser 3 template using SolidJS.",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/phaserjs/template-solid.git"
@@ -28,12 +28,12 @@
     },
     "dependencies": {
         "phaser": "^3.88.2",
-        "solid-js": "^1.8.17"
+        "solid-js": "1.9.5"
     },
     "devDependencies": {
-        "terser": "^5.31.0",
-        "typescript": "^5.4.5",
-        "vite": "^5.2.11",
-        "vite-plugin-solid": "^2.10.2"
+        "terser": "5.39.0",
+        "typescript": "5.7.2",
+        "vite": "6.3.1",
+        "vite-plugin-solid": "2.11.6"
     }
 }

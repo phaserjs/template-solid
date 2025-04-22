@@ -7,9 +7,9 @@ This is a Phaser 3 project template that uses the Solidjs framework and Vite for
 This template has been updated for:
 
 - [Phaser 3.88.2](https://github.com/phaserjs/phaser)
-- [Solid 1.8.17](https://github.com/solidjs/solid)
-- [Vite 5.2.11](https://github.com/vitejs/vite)
-- [TypeScript 5.4.5](https://github.com/microsoft/TypeScript)
+- [Solid 1.9.5](https://github.com/solidjs/solid)
+- [Vite 6.3.1](https://github.com/vitejs/vite)
+- [TypeScript 5.7.2](https://github.com/microsoft/TypeScript)
 
 ![screenshot](screenshot.png)
 
@@ -39,18 +39,20 @@ Once the server is running you can edit any of the files in the `src` folder. Vi
 
 We have provided a default project structure to get you started. This is as follows:
 
-- `index.html` - A basic HTML page to contain the game.
-- `src` - Contains the Solid client source code.
-- `src/index.tsx` - The main **Solid** entry point. This bootstraps the Solid application.
-- `src/vite-env.d.ts` - Global TypeScript declarations, provide types information.
-- `src/App.tsx` - The main Solid component.
-- `src/game/PhaserGame.tsx` - The Solid component that initializes the Phaser Game and serve like a bridge between Solid and Phaser.
-- `src/game/EventBus.ts` - A simple event bus to communicate between Solid and Phaser.
-- `src/game` - Contains the game source code.
-- `src/game/main.tsx` - The main **game** entry point. This contains the game configuration and start the game.
-- `src/game/scenes/` - The Phaser Scenes are in this folder.
-- `public/style.css` - Some simple CSS rules to help with page layout.
-- `public/assets` - Contains the static assets used by the game.
+| Path                          | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| `index.html`                  | A basic HTML page to contain the game.                                     |
+| `src`                         | Contains the Solid client source code.                                     |
+| `src/index.tsx`               | The main **Solid** entry point. This bootstraps the Solid application.      |
+| `src/vite-env.d.ts`           | Global TypeScript declarations, providing type information.                |
+| `src/App.tsx`                 | The main Solid component.                                                  |
+| `src/PhaserGame.tsx`          | The Solid component that initializes the Phaser Game and serves as a bridge between Solid and Phaser. |
+| `src/game/EventBus.ts`        | A simple event bus to communicate between Solid and Phaser.                |
+| `src/game`                    | Contains the game source code.                                             |
+| `src/game/main.tsx`           | The main **game** entry point. This contains the game configuration and starts the game. |
+| `src/game/scenes/`            | The folder containing the Phaser Scenes.                                   |
+| `public/style.css`            | Some simple CSS rules to help with page layout.                            |
+| `public/assets`               | Contains the static assets used by the game.                               |
 
 ## Solid Bridge
 
@@ -236,6 +238,6 @@ We love to see what developers like you create with Phaser! It really motivates 
 
 Created by [Phaser Studio](mailto:support@phaser.io). Powered by coffee, anime, pixels and love.
 
-The Phaser logo and characters are &copy; 2011 - 2024 Phaser Studio Inc.
+The Phaser logo and characters are &copy; 2011 - 2025 Phaser Studio Inc.
 
 All rights reserved.

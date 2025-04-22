@@ -1,6 +1,6 @@
 import { createSignal } from 'solid-js';
-import type { IRefPhaserGame } from './game/PhaserGame';
-import { PhaserGame } from './game/PhaserGame';
+import type { IRefPhaserGame } from './PhaserGame';
+import { PhaserGame } from './PhaserGame';
 import Phaser from 'phaser';
 import { MainMenu } from './game/scenes/MainMenu';
 
