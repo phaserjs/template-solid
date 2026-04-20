@@ -13,6 +13,13 @@ export default defineConfig({
     ],
     logLevel: 'error',
     build: {
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    phaser: ['phaser']
+                }
+            }
+        },
         minify: 'terser',
         terserOptions: {
             compress: {
